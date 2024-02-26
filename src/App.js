@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+//import { useState } from 'react';
+import Hooksss from './Hooksss.js';
+import Checkb from './Checkb.js';
+//import Forms from './Forms.js';
+import FormsControlled from './FormsControlled.js';
+import FetchData from './FetchData.js';
 
-function App() {
+
+function App(props) {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Hooksss />
+          <Checkb />
+          <br /><br /><br />
+          <FormsControlled />
+          <br /><br /><br />
+          <FetchData />
     </div>
   );
 }
