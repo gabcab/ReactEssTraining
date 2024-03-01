@@ -22,7 +22,7 @@ function FetchData(){
         .then(setData)
         .then(() => setLoading(false))
         .catch(setError);
-    }, []);
+    }, []);//This empty array ensures that the effect only runs once
 
     if (loading) return <h1>Loading...</h1>;
     if (error) return <pre>{JSON.stringify(error)}</pre>;

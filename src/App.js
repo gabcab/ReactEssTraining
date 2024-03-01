@@ -5,6 +5,7 @@ import Checkb from './Checkb.js';
 //import Forms from './Forms.js';
 import FormsControlled from './FormsControlled.js';
 import FetchData from './FetchData.js';
+import FetchData3 from './FetchData3.js';
 
 
 function App(props) {
@@ -17,6 +18,9 @@ function App(props) {
           <FormsControlled />
           <br /><br /><br />
           <FetchData />
+          <br /><br /><br />
+          <FetchData3 />
+
     </div>
   );
 }
